@@ -127,4 +127,5 @@ contract MyToken is IERC20 {
         emit Transfer(sender, recipient, amount);
         return true;
     }
+    function exercise()external view returns(uint){}
 }
